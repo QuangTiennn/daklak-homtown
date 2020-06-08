@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-image: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    width: 100%; 
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#container{
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+#header{
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#byNQT{
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+
+#fistContent{
+    background-color:#DBDBE9;
+}
+
+#fistContent > h4{
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#fistContent > h5{
+    margin-top: 0;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+#titlePic{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: auto;
+}
+
+#titlePic > h4 {
+    padding-top: 40px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#boxPic1,#boxPic2{
+    display: flex;
+}
+
+#pic1 , #pic2 , #pic3 , #pic4{
+    width: 50%;
+    height: 350px;
+}
+
+#img1, #content1{
+    width: 50%;
+}
+
+#content1{
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#content1 > h5{
+    text-align: center;
+    font-size: 15px;
+}
+
+#content1 > p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#containerDetail {
+    margin-top: 100px;
+}
+
+#detail-1, #detail-2{
+    display: flex;
+}
+
+#img2, #content2{
+    width: 50%;
+    height: auto;
+    color: white;
+} 
+
+#content2 > h5 {
+    text-align: center;
+    font-size: 15px;
+}
+
+#content2 > p {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#detail-3{
+    display: flex;
+}
+
+#content3 {
+    background-color: white;
+}
+
+#img3,#content3{
+    width: 50%;
+    height: auto;
+}
+
+#content3 > h5{
+    text-align: center;
+    font-size: 15px;
+}
+
+#content3 > p {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#listIcon ul{
+    display: flex;
+}
+
+#listIcon ul li a {
+    color: white;
+    text-decoration: none;
+    font-size:  30px;
+    margin-top: 100px;
+    margin-left: 170px;
+}
+
+#listIcon {
+    width: 100px;
+    height: 200px;
+}
